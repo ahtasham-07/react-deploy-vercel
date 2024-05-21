@@ -1,0 +1,43 @@
+.data-display {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .data-display-title {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .data-display-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .data-display-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .data-display-item:last-child {
+    border-bottom: none;
+  }
+  
+  .delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #e60000;
+  }  
